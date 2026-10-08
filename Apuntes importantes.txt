@@ -1,0 +1,103 @@
+url del libro: https://colab.research.google.com/drive/1cmqT0GONfta1u8TfbXl6D6GGdDfcNbtC#scrollTo=3LEn9L8tDDnv
+
+en piezas de Rompecabezas 
+
+Palabras claves:
+
+1- Empatia -> tener empatia con los compañeros que no tienen conocimientos.
+
+2- Resiliencia -> no todo funciona a la primera.
+
+3- Equipo cohesivo.  logro de objetivos en equipo -> 
+
+4- pair programming trabajar en grupos de 2
+
+BIENVENIDA
+
+
+
+Ver el cuaderno de IA con los aprendices
+
+subri el nivel con IA
+
+entregar e backlog de los proyectos (Casos de uso) -> criterios de aceptación para los casos de prueba
+
+ 
+---------------------------------
+acceso al cuaderno
+https://colab.research.google.com/drive/1cmqT0GONfta1u8TfbXl6D6GGdDfcNbtC#scrollTo=3LEn9L8tDDnv
+
+ENI TRADING -> le damos doble clic en el contexto y te muestra un promt -> ese lo copias y pegas en el archivo promt especificaciones funcionales.txt
+ahora en el product back log lo encuentras debajito y ese lo copias y lo pegas en el promt de la IA adjuntando el archivo:promt especificaciones funcionales.txt
+
+La IA te debe presentar una tabla con las especificaicones 
+
+vamos a Google stish en el libro para ojearlapara ver estilos de los paginas de incicio que puedes usar. quiero que actúes como una diseñador grafico para que diseñes una pagina de inicio para la escuela de instructores del sena ENI con logos del sena para un proyecto formativo
+selecciona los elementos de Google stish y los exportamos en un zip.
+
+descomprimir el zip 
+abrilo en vsc
+ver la carpeta docs donde están todas los prompts para controlar la IA
+
+esos prompts los asigno al agente de IA de vsc para generar el proyecto.
+
+descargue del libro el eni trading .zip los dos archivos y abrir la carpeta en vsc
+
+abrir las rules Project en el libro para ver las especificaciones de desarrollo y controlar a la IA esto esta en la carpeta del vsc.
+
+ver la carpeta pr_ini para ver las urls 
+
+crear el entorno virtual abriendo la terminal de vsc y escribe este comando: python -m venv venv
+ahora activamos el entorno virrual que acabamos de instalar venv/scripts/actívate
+si te da error de pliticas de seguridad de Windows, abre power Shell y ejecuta este comando: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser confirma con s y enter
+
+ejecuta nuevamente: venv/scripts/actívate
+
+y listo.
+
+Revisamos el archio requirements.txt, esto nos muestra las librerías que se deben instalar con el comando: pip install -r requirements.txt
+ahora ejecutar el proyecto con los comandos: python manage.py runserver
+
+abrir la url:  http://127.0.0.1:8000/
+
+revisa el archivo credenciales ubicado el libro en el apartado eni-trainig antes de descargar se ve este archivo: 
+
+para abrir con administrador loguearse como admin y admin123 luego cambiar la url con /admin
+con usuario1-> user1001
+usuario2 -> user2002
+
+
+LOS CRITERIOS DE ACEPTACION DEBEN SER FUNDAMENTALES PARA LAS PRUEBAS Y LOS SPRINT DEL BACKLOG
+
+hacer las pruebas de software: https://colab.research.google.com/drive/1MIwKuE0BwBDQ6LMkV98RqwA8YIjLbZ2S
+
+norma 29119 para el desarrollo de software
+
+se deben hacer los prompst incluyendo las normas 29119-*
+
+pruebas manuales, automatizadas dirigidas por IA
+
+PLAN DE PRUEBAS (CICLO)
+
+Vamos a generar el promp para el plan de pruebas:
+abrimos notebooklm para utilizar el promt para le plan de pruebas:
+descargamos el archivo IEEE-29119-3 para subirlo a las fuentes
+descargamos la descripción funcional del libro 1 y lo copiamos en una archivo con el nombre 
+los subimos ambos al notebooklm
+y le ponemos el promp de plan de pruebas del libro 2.
+
+DISEÑO DE PRUEBAS (CICLO)
+SE DEBE TENER EN CUENTA EL PROMPT DEL KLIBRO PROMPT DISEÑO DE CASO 
+subir los archivos de ieee- 29119-3 y el archivo: product_backlog.md que esta en vsc y suba el prompt del cuaderno diseño de pruebas
+me genera un Excel con todo el diseño de las pruebas.
+
+
+======================================================================================================================================
+
+EJECUCION DE PRUEBAS
+
+=====================================================================================================================================
+
+esta en la apropiación. vacanisimo
+
+TC-PBI010-01 y 02
